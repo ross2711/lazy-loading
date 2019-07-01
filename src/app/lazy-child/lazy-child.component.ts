@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-lazy-child',
+  selector: 'lazy-child',
   templateUrl: './lazy-child.component.html',
   styleUrls: ['./lazy-child.component.css']
 })
