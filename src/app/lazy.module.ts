@@ -7,7 +7,7 @@ import { RouterModule, Routes } from '@angular/router';
 const routes: Routes = [{ path: 'load-me', component: LazyParentComponent }];
 
 @NgModule({
-  declarations: [LazyParentComponent, LazyChildComponent],
-  imports: [CommonModule, RouterModule.forChild(routes)]
+  imports: [CommonModule, RouterModule.forChild(routes)],
+  declarations: [LazyParentComponent, LazyChildComponent]
 })
 export class LazyModule {}
